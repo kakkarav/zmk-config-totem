@@ -44,6 +44,11 @@
             key-positions = <11 12 13>;
             bindings = <&tog TVP1>;
         };
+
+        vim_escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <16 17>;
+        };
     };
 
     macros {
