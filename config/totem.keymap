@@ -207,10 +207,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL   &kp AT     &kp HASH      &kp DLLR   &kp PRCNT    &kp CARET  &kp AMPS  &kp ASTERISK  &kp SQT  &kp DQT
-        &kp COLON  &kp COLON  &kp ASTERISK  &kp MINUS  &kp PLUS     &kp EQUAL  &trans    &trans        &trans   &trans
-&trans  &trans     &trans     &trans        &trans     &trans       &trans     &trans    &trans        &trans   &kp BSLH  &trans
-                              &trans        &gif       &mo ADJ      &trans     &kp C_PP  &trans
+        &kp EXCL   &kp AT     &kp HASH      &kp DLLR   &kp PRCNT    &kp CARET          &kp AMPS   &kp ASTERISK      &kp SQT            &kp DQT
+        &kp COLON  &kp COLON  &kp ASTERISK  &kp MINUS  &kp PLUS     &kp EQUAL          &trans     &mission_control  &trans             &trans
+&trans  &trans     &trans     &trans        &trans     &trans       &prev_window_pane  &prev_tab  &next_tab         &next_window_pane  &kp BSLH  &trans
+                              &trans        &gif       &mo ADJ      &trans             &kp C_PP   &trans
             >;
         };
 
