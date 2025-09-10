@@ -41,7 +41,7 @@
 
         combo_tvp {
             timeout-ms = <100>;
-            key-positions = <11 12 13>;
+            key-positions = <2 3>;
             bindings = <&tog TVP1>;
         };
 
@@ -216,10 +216,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp ESC       &kp PAGE_UP   &kp UP    &kp PAGE_DOWN    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N7        &kp N8        &kp N9        &kp PLUS
-         &kp LSHFT     &kp LEFT      &kp DOWN  &kp RIGHT        &kp LBKT                &kp RBKT               &kp NUMBER_4  &kp NUMBER_5  &kp N6        &kp MINUS
-&kp TAB  &kp LEFT_GUI  &kp C_VOL_DN  &kp CAPS  &kp C_VOLUME_UP  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &kp COMMA
-                                     &trans    &trans           &trans                  &mo ADJ                &kp N0        &kp PERIOD
+         &kp ESC       &kp PAGE_UP  &kp UP    &kp PAGE_DOWN  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N7        &kp N8        &kp N9        &kp PLUS
+         &kp LSHFT     &kp LEFT     &kp DOWN  &kp RIGHT      &kp LBKT                &kp RBKT               &kp NUMBER_4  &kp NUMBER_5  &kp N6        &kp MINUS
+&kp TAB  &kp LEFT_GUI  &trans       &kp CAPS  &trans         &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &kp COMMA
+                                    &trans    &trans         &trans                  &mo ADJ                &kp N0        &kp PERIOD
             >;
         };
 
@@ -242,10 +242,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL   &kp AT     &kp HASH      &kp DLLR   &kp PRCNT    &kp CARET          &kp AMPS   &kp ASTERISK      &kp SQT            &kp DQT
-        &kp COLON  &kp COLON  &kp ASTERISK  &kp MINUS  &kp PLUS     &kp EQUAL          &trans     &mission_control  &trans             &trans
-&trans  &trans     &trans     &trans        &trans     &trans       &prev_window_pane  &prev_tab  &next_tab         &next_window_pane  &kp BSLH  &trans
-                              &trans        &gif       &mo ADJ      &trans             &kp C_PP   &trans
+        &kp EXCL   &kp AT     &kp HASH          &kp DLLR      &kp PRCNT          &kp CARET          &kp AMPS   &kp ASTERISK      &kp SQT            &kp DQT
+        &kp COLON  &kp COLON  &kp ASTERISK      &kp MINUS     &kp PLUS           &kp EQUAL          &trans     &mission_control  &trans             &trans
+&trans  &trans     &trans     &kp K_PLAY_PAUSE  &kp C_VOL_DN  &kp C_VOLUME_UP    &prev_window_pane  &prev_tab  &next_tab         &next_window_pane  &kp BSLH  &trans
+                              &trans            &gif          &mo ADJ            &trans             &trans     &trans
             >;
         };
 
